@@ -43,7 +43,3 @@ I will build more complete apps with routing, global state and deploy them.
 • **Day 28 — Local Storage**: I will persist the To-Do list or theme setting across refreshes.
 • **Day 29 — Refactor & Polish**: I will pick an earlier project, refactor its structure and add comments.
 • **Day 30 — Deployment**: I will deploy my best project to Vercel or Netlify.
-
----
-
-If you'd like, I can also add short links to each day's folder or the live demo and deployment steps.
