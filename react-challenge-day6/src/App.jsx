@@ -1,12 +1,12 @@
-import Mirrorinput from './Mirrorinput.jsx';
+import Mirrorinput from './Mirrorinput';
 import './App.css';
 
 function App() {
   return (
-    <div style={{display:'flex', justifyContent:'center', alignItems:'center',
-      minHeight:'100vh',backgroundColor:'#4b9ff'
-    }}>
-      <Mirrorinput />
+    <div className="app-bg">
+      <main className="app-container" role="main">
+        <Mirrorinput />
+      </main>
     </div>
   );
 }
