@@ -1,0 +1,128 @@
+.github-card{
+    background-color: #24292e;
+    color: white;
+    width: 350px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+h2{
+    margin-top: 0;color:#fff;
+}
+
+.search-form{
+    display: flex;
+    gap:10px;
+    margin-bottom: 20px;
+}
+
+.search-form input{
+    flex: 1;
+    border-radius: 6px;
+    border: 1px solid #444;
+    background-color: #fafbfc;
+    outline: none;
+    padding: 10px;
+    font-size: 0.95rem;
+    color: #24292e;
+}
+
+.search-form button{
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: none;
+    background-color: #2ea44f;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.search-form button:hover{
+    background-color: #2c974b;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #fff;
+}
+
+.bio{
+    font-style: italic;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    color: #d1d5da;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #1b1f23;
+    border-radius: 10px;
+}
+
+.stat-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.stat-box span{
+    font-size: 0.8rem;
+    color: #8b949e;
+    margin-bottom: 6px;
+}
+
+.stat-box strong{
+    color: #d1d5da;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.visit-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #58a6ff;
+    font-weight: bold;
+    border: 2px solid #58a6ff;
+    padding: 10px 15px;
+    border-radius: 6px;
+    transition: all 0.2s;
+}
+
+.visit-btn:hover{
+    background-color: #58a6ff;
+    color: white;
+}
+
+.error-msg{
+    color: #ff6a6a;
+    background: rgba(255, 0, 0, 0.06);
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.spinner{
+    width: 40px;
+    height: 40px;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    border-top-color: white;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
