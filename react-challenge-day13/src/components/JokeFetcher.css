@@ -1,0 +1,88 @@
+.joke-card{
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h2{
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.joke-content{
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* single-line joke */
+.joke-text {
+    font-size: 1.1rem;
+    color: #444;
+}
+
+/* two-part joke */
+.setup{
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:#2c3e50;
+}
+
+.delivery{
+    font-style: italic;
+    color:#e67e22;
+}
+
+.new-joke-btn{
+    background-color: #6c5ce7;
+    color:white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: center;
+}
+
+.new-joke-btn:hover{
+    background-color: #5b4cc4;
+}
+
+.new-joke-btn:disabled{
+    background-color: #b2bec3;
+    cursor: not-allowed;
+}
+
+.loading-spinner{
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #6c5ce7;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+}
+
+.error-message {
+    color: #e74c3c;
+    margin-top: 12px;
+    font-weight: 600;
+}
+
+@keyframes spin{
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
