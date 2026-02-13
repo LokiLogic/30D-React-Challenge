@@ -1,0 +1,20 @@
+.theme-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.light-btn {
+  background-color: #333;
+  color: white;
+}
+
+.dark-btn {
+  background-color: #f1c40f;
+  color: #333;
+}
