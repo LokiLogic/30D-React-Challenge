@@ -1,0 +1,19 @@
+#app-root { max-width: 1200px; margin: 0 auto; }
+
+.app {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:20px;
+  padding:28px 16px;
+  width:100%;
+}
+
+.content {
+  width:100%;
+  max-width:1120px;
+}
+
+h1, h2, h3 { color: #eaf6ff; margin:0; }
+
+.muted { color: rgba(234,246,255,0.75); }
