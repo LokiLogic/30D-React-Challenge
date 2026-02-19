@@ -1,0 +1,93 @@
+/* WeatherApp styles updated for cohesive theme */
+.weather-container {
+    max-width: 520px;
+    margin: 24px auto;
+    text-align: center;
+    padding: 18px;
+}
+
+.search-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 18px;
+}
+
+.search-input {
+    flex: 1;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    background: transparent;
+    color: inherit;
+}
+
+.search-button {
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+}
+
+.weather-card {
+    padding: 18px;
+    border-radius: 12px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.01));
+    box-shadow: 0 18px 40px rgba(2, 6, 23, 0.45);
+    margin-top: 12px;
+}
+
+.weather-card h2 {
+    margin: 0 0 6px 0;
+    font-size: 1.1rem
+}
+
+.weather-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain
+}
+
+.weather-card h1 {
+    font-size: 2.6rem;
+    margin: 6px 0
+}
+
+.weather-desc {
+    text-transform: capitalize;
+    color: var(--muted);
+    margin-top: 6px
+}
+
+.weather-details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 16px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.03);
+    color: var(--muted)
+}
+
+.error-msg {
+    color: #ff6b6b;
+    font-weight: 700
+}
+
+@media (max-width:520px) {
+    .weather-container {
+        padding: 12px
+    }
+
+    .weather-card img {
+        width: 96px;
+        height: 96px
+    }
+
+    .weather-card h1 {
+        font-size: 2rem
+    }
+
+    .search-form {
+        flex-direction: column;
+        align-items: stretch
+    }
+}

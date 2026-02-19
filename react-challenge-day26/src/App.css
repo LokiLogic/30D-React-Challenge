@@ -1,0 +1,27 @@
+.app-shell{
+  width:100%;
+  max-width:var(--max-width);
+  margin:0 auto;
+  padding:28px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.App{width:100%}
+
+.card{
+  width:100%;
+  background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border-radius:var(--radius);
+  padding:22px;
+  box-shadow:0 10px 30px rgba(2,6,23,0.35);
+}
+
+.logo{height:5.5rem;padding:1rem;transition:transform .3s}
+.logo:hover{transform:translateY(-6px)}
+
+@media (max-width:600px){
+  .app-shell{padding:18px}
+  .logo{height:3.2rem}
+}
