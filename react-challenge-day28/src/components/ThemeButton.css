@@ -1,0 +1,29 @@
+.theme-btn {
+    padding: 12px 28px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.light-btn {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-btn {
+  background-color: #f1c40f;
+  color: #333;
+}
+.theme-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.16);
+}
+
+.theme-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.14);
+}
